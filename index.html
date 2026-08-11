@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1d2b12">
+<meta name="description" content="بلقيس للورود و النباتات — تنسيق الزهور والنباتات والأشجار والحدائق والصيانة للفنادق والمنشآت والمنازل والمناسبات في مكة المكرمة.">
+<title>بلقيس للورود و النباتات | BALQEES FLORAL</title>
+<style>
+:root{
+  --green:#243514;--green2:#344b1d;--olive:#6f7f3d;--gold:#c8a45a;
+  --cream:#f6f4ed;--ink:#172015;--muted:#6c7467;--white:#fff;
+  --glass:rgba(255,255,255,.68);--line:rgba(255,255,255,.34);
+  --shadow:0 24px 70px rgba(21,31,14,.13);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Tahoma,Arial,sans-serif;
+ line-height:1.85;background:
+ radial-gradient(circle at 10% 10%,rgba(200,164,90,.12),transparent 28%),
+ radial-gradient(circle at 90% 35%,rgba(111,127,61,.12),transparent 30%),
+ linear-gradient(135deg,#faf9f4,#eef0e7 48%,#f7f3e8);
+}
+body:before{
+ content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;z-index:-1;
+ background-image:linear-gradient(rgba(36,53,20,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(36,53,20,.025) 1px,transparent 1px);
+ background-size:42px 42px;
+}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}
+.topbar{
+ position:absolute;top:0;left:0;right:0;z-index:20;padding:18px 0;
+ background:linear-gradient(180deg,rgba(8,15,5,.58),transparent);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:25px;color:#fff}
+.brand{font-weight:900;font-size:20px;letter-spacing:.1px}
+.brand small{display:block;font-size:10px;letter-spacing:3px;color:#dfc47f;margin-top:-5px}
+.navlinks{display:flex;gap:24px;font-size:14px;font-weight:700}
+.navlinks a{opacity:.92}.navlinks a:hover{color:#e1c879}
+.navcta{padding:9px 16px;border:1px solid rgba(255,255,255,.4);border-radius:999px;background:rgba(255,255,255,.12);backdrop-filter:blur(12px)}
+.hero{
+ min-height:760px;display:flex;align-items:center;position:relative;overflow:hidden;color:#fff;
+ background:
+ linear-gradient(90deg,rgba(10,17,7,.88),rgba(20,35,12,.60) 48%,rgba(12,19,8,.72)),
+ url("53D9A0EC-D31A-49F7-95A3-619FFC10B924.jpeg") center/cover;
+}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:180px;background:linear-gradient(transparent,#f6f4ed)}
+.hero-content{position:relative;z-index:2;padding:130px 0 110px;max-width:800px}
+.kicker{color:#e0c57b;font-weight:900;letter-spacing:3px;font-size:13px}
+.hero h1{font-size:clamp(45px,7vw,82px);line-height:1.08;margin:12px 0 22px;font-weight:950}
+.hero h1 span{color:#e1c77f}
+.hero p{font-size:20px;max-width:720px;color:#f3f2ea;margin:0 0 30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 22px;border-radius:999px;font-weight:900;transition:.25s}
+.btn:hover{transform:translateY(-2px)}
+.btn.gold{background:linear-gradient(135deg,#d8ba70,#b58c3d);color:#fff;box-shadow:0 12px 30px rgba(0,0,0,.2)}
+.btn.glass{background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(14px);color:#fff}
+.stats{
+ position:absolute;z-index:5;bottom:55px;left:0;right:0;
+}
+.statbox{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:700px}
+.stat{padding:16px 18px;border:1px solid var(--line);background:rgba(255,255,255,.13);backdrop-filter:blur(16px);border-radius:18px}
+.stat b{display:block;color:#fff;font-size:17px}.stat span{font-size:12px;color:#d8ddcf}
+section{padding:95px 0}
+.sectionhead{margin-bottom:40px}.eyebrow{color:var(--gold);font-weight:950;letter-spacing:2px;font-size:12px}
+h2{font-size:clamp(30px,4vw,48px);line-height:1.2;margin:7px 0 13px;color:var(--green)}
+.sectionhead p{max-width:720px;color:var(--muted);font-size:16px}
+.about{display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center}
+.about-card{
+ padding:38px;border-radius:30px;background:var(--glass);border:1px solid rgba(255,255,255,.8);
+ box-shadow:var(--shadow);backdrop-filter:blur(18px);
+}
+.about-card p{color:#5e665a}
+.pillrow{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}
+.pill{padding:8px 12px;border-radius:999px;background:#eef1e7;color:var(--green2);font-size:12px;font-weight:800}
+.about-photo{min-height:500px;border-radius:30px;overflow:hidden;box-shadow:var(--shadow);position:relative;background:url("9A343382-FED2-43C8-8E8C-B1B4290C17ED.jpeg") center/cover}
+.about-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(18,28,11,.58),transparent 60%)}
+.photo-label{position:absolute;z-index:2;bottom:24px;right:24px;left:24px;color:#fff}
+.photo-label b{font-size:25px}.photo-label span{display:block;color:#e4e8db}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.service{
+ position:relative;overflow:hidden;padding:29px;border-radius:24px;
+ background:rgba(255,255,255,.62);border:1px solid rgba(255,255,255,.85);
+ box-shadow:0 15px 45px rgba(36,53,20,.08);backdrop-filter:blur(16px);
+}
+.service:before{content:"";position:absolute;top:-45px;left:-35px;width:110px;height:110px;border-radius:50%;background:rgba(200,164,90,.12)}
+.icon{width:52px;height:52px;display:grid;place-items:center;border-radius:16px;background:#e9eddf;color:var(--green2);margin-bottom:17px}
+.icon svg{width:25px;height:25px}
+.service h3{margin:0;color:var(--green);font-size:19px}.service p{color:var(--muted);font-size:14px;margin-bottom:0}
+.hotel{
+ border-radius:34px;padding:55px;position:relative;overflow:hidden;color:#fff;
+ background:linear-gradient(135deg,rgba(28,43,15,.97),rgba(54,73,26,.94));
+ box-shadow:var(--shadow);
+}
+.hotel:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;left:-150px;top:-220px;border:1px solid rgba(255,255,255,.1);box-shadow:0 0 0 40px rgba(255,255,255,.025),0 0 0 80px rgba(255,255,255,.02)}
+.hotel h2{color:#fff}.hotel p{color:#dfe6d5;max-width:730px}
+.hotelgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}
+.check{padding:18px;border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.07);border-radius:18px;backdrop-filter:blur(10px)}
+.check b{display:block;margin-bottom:5px}.check span{font-size:12px;color:#cbd5c1}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{height:410px;position:relative;overflow:hidden;border-radius:24px;background:#dfe3d9;box-shadow:0 16px 45px rgba(20,30,12,.12)}
+.card img{width:100%;height:100%;object-fit:cover;display:block;transition:.6s}
+.card:hover img{transform:scale(1.06)}
+.card:after{content:"";position:absolute;inset:40% 0 0;background:linear-gradient(transparent,rgba(12,18,8,.78))}
+.card div{position:absolute;z-index:2;bottom:18px;right:18px;left:18px;color:#fff;font-weight:900;font-size:15px}
+.contactwrap{
+ border-radius:34px;padding:52px;background:
+ linear-gradient(135deg,rgba(255,255,255,.78),rgba(255,255,255,.45));
+ border:1px solid rgba(255,255,255,.9);box-shadow:var(--shadow);backdrop-filter:blur(18px)
+}
+.contactgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.contactcard{padding:23px;border-radius:22px;background:rgba(255,255,255,.66);border:1px solid rgba(36,53,20,.08)}
+.contactcard a{display:block;font-weight:900;color:var(--green2);margin-top:3px}
+.contactcard small{color:var(--muted)}
+.socials{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:22px}
+.social{
+ padding:17px;border-radius:18px;background:#fff;border:1px solid #e8ebdf;
+ display:flex;align-items:center;gap:10px;font-weight:900;transition:.25s
+}
+.social:hover{transform:translateY(-3px);box-shadow:0 10px 25px rgba(36,53,20,.1)}
+.social svg{width:27px;height:27px;color:var(--green2)}
+.save{
+ margin-top:22px;width:100%;border:0;cursor:pointer;padding:15px;border-radius:16px;
+ background:var(--green);color:#fff;font-weight:900;font-size:15px
+}
+.save:hover{background:#31491b}
+.note{font-size:12px;color:#7b8275;text-align:center;margin:10px 0 0}
+footer{background:#17230d;color:#dfe6d4;padding:34px 0}
+.footergrid{display:flex;justify-content:space-between;gap:25px;align-items:center}
+footer small{color:#aeb8a2}
+@media(max-width:900px){
+ .navlinks{display:none}.about{grid-template-columns:1fr}.about-photo{min-height:400px}
+ .services{grid-template-columns:1fr 1fr}.hotelgrid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}
+ .socials{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+ .hero{min-height:760px}.hero-content{padding-top:140px}.hero p{font-size:17px}.statbox{grid-template-columns:1fr 1fr}.stat:last-child{display:none}
+ section{padding:70px 0}.services,.gallery,.contactgrid{grid-template-columns:1fr}.hotel{padding:32px 22px}.hotelgrid{grid-template-columns:1fr}
+ .about-card{padding:27px}.contactwrap{padding:27px 18px}.socials{grid-template-columns:1fr 1fr}.social{padding:14px 10px;font-size:13px}
+}
+</style>
+</head>
+<body>
+
+<header class="hero" id="home">
+  <div class="topbar">
+    <div class="container nav">
+      <a class="brand" href="#home">بلقيس للورود و النباتات<small>BALQEES FLORAL</small></a>
+      <div class="navlinks">
+        <a href="#about">من نحن</a><a href="#services">خدماتنا</a><a href="#gallery">أعمالنا</a><a href="#contact">تواصل معنا</a>
+      </div>
+      <a class="navcta" href="https://wa.me/966599076267" target="_blank" rel="noopener">واتساب</a>
+    </div>
+  </div>
+  <div class="container hero-content">
+    <div class="kicker">COMPANY PROFILE · MAKKAH</div>
+    <h1>نصنع للمكان<br><span>حضوراً أخضر</span> يليق به.</h1>
+    <p>بلقيس للورود و النباتات تقدم حلولاً متكاملة لتنسيق الزهور والنباتات والأشجار والحدائق، مع التوريد والتركيب والصيانة والمتابعة الدورية للفنادق والمنشآت والمنازل والمناسبات.</p>
+    <div class="actions">
+      <a class="btn gold" href="#contact">اطلب عرض خدمات</a>
+      <a class="btn glass" href="#gallery">شاهد أعمالنا</a>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="container">
+      <div class="statbox">
+        <div class="stat"><b>الفنادق والمنشآت</b><span>حلول مخصصة للهوية والمساحات</span></div>
+        <div class="stat"><b>داخلي وخارجي</b><span>نباتات وأشجار وحدائق وورود</span></div>
+        <div class="stat"><b>توريد وصيانة</b><span>متابعة دورية للحفاظ على المظهر</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="about">
+  <div class="container about">
+    <div class="about-card">
+      <div class="sectionhead">
+        <div class="eyebrow">ABOUT BALQEES</div>
+        <h2>من نحن</h2>
+      </div>
+      <p>بلقيس للورود و النباتات مؤسسة متخصصة في تقديم حلول تنسيق الزهور والنباتات والمساحات الخضراء. نعمل على تحويل المداخل واللوبيات والممرات والحدائق إلى مساحات أكثر أناقة وحيوية، مع الاهتمام بالتفاصيل وجودة التنفيذ.</p>
+      <p>نقدم الخدمة من اختيار النباتات والتصميم، إلى التوريد والتركيب والصيانة والمتابعة الدورية، بما يناسب طبيعة كل منشأة وهوية المكان.</p>
+      <div class="pillrow">
+        <span class="pill">تنسيق فنادق</span><span class="pill">نباتات داخلية</span><span class="pill">نباتات خارجية</span>
+        <span class="pill">أشجار</span><span class="pill">حدائق</span><span class="pill">صيانة دورية</span>
+      </div>
+    </div>
+    <div class="about-photo">
+      <div class="photo-label"><b>تفاصيل تصنع الانطباع الأول</b><span>تصميم وتنفيذ يراعي المكان والهوية البصرية.</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <div class="sectionhead">
+      <div class="eyebrow">OUR SERVICES</div><h2>خدماتنا</h2>
+      <p>حلول متكاملة للزهور والنباتات والأشجار والمساحات الخضراء، مصممة لتناسب الفنادق والمنشآت والمنازل والمناسبات.</p>
+    </div>
+    <div class="services">
+      <article class="service"><div class="icon">✿</div><h3>تنسيق الزهور</h3><p>تنسيقات راقية للمداخل والاستقبالات واللوبيات والمناسبات والفعاليات.</p></article>
+      <article class="service"><div class="icon">🌿</div><h3>النباتات الداخلية</h3><p>اختيار وتوريد وتركيب نباتات داخلية تضيف أناقة وحيوية للمساحات.</p></article>
+      <article class="service"><div class="icon">☘</div><h3>النباتات الخارجية</h3><p>تنسيق وزراعة النباتات للمداخل والممرات والواجهات والمساحات الخارجية.</p></article>
+      <article class="service"><div class="icon">🌳</div><h3>الأشجار</h3><p>توريد وتركيب الأشجار وتنسيق توزيعها بما يناسب الموقع والتصميم.</p></article>
+      <article class="service"><div class="icon">⌁</div><h3>تنسيق الحدائق</h3><p>تجميل المساحات الخضراء وإبرازها بصورة متناسقة وأنيقة.</p></article>
+      <article class="service"><div class="icon">⚙</div><h3>الصيانة الدورية</h3><p>متابعة وصيانة النباتات والأشجار والمحافظة على جودة المظهر العام.</p></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="hotel">
+      <div class="eyebrow">FOR HOTELS & FACILITIES</div>
+      <h2>حلول مخصصة للفنادق والمنشآت</h2>
+      <p>نرتب الخدمة حسب احتياج الموقع: من التوريد والتركيب إلى الزيارات الدورية والصيانة، مع تنسيق يتماشى مع مستوى المنشأة وهوية المكان.</p>
+      <div class="hotelgrid">
+        <div class="check"><b>توريد وتركيب</b><span>تنفيذ وتجهيز النباتات والزهور في المواقع المتفق عليها.</span></div>
+        <div class="check"><b>متابعة دورية</b><span>زيارات متابعة للحفاظ على جودة النباتات والمظهر.</span></div>
+        <div class="check"><b>هوية المكان</b><span>اختيارات وتنسيقات تراعي طبيعة الفندق والمساحات.</span></div>
+        <div class="check"><b>داخلي وخارجي</b><span>من اللوبي والاستقبال إلى الحدائق والممرات والواجهات.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="container">
+    <div class="sectionhead">
+      <div class="eyebrow">OUR WORK</div><h2>معرض أعمال بلقيس</h2>
+      <p>نماذج من أعمال تنسيق الزهور والنباتات والأشجار والمساحات الخارجية.</p>
+    </div>
+    <div class="gallery">
+      <article class="card"><img src="AB061CD7-26A0-4423-B56B-0EDAEA04D38A.jpeg" alt="تنسيق حدائق ومسطحات خارجية" loading="lazy"><div>تنسيق حدائق ومسطحات خارجية</div></article>
+      <article class="card"><img src="908CEEF4-B60A-4425-86B9-EA554EC60E55.jpeg" alt="تنسيق نباتات داخلية" loading="lazy"><div>تنسيق نباتات داخلية</div></article>
+      <article class="card"><img src="D0F5CE0E-1AAD-475C-A1A1-E80E630069D8.jpeg" alt="تنسيق حدائق خارجية" loading="lazy"><div>تنسيق حدائق خارجية</div></article>
+      <article class="card"><img src="0BC33956-B21B-4506-AF3E-939FCE8BD071.jpeg" alt="تنسيق نباتات وإضاءة ليلية" loading="lazy"><div>تنسيق نباتات وإضاءة ليلية</div></article>
+      <article class="card"><img src="9A343382-FED2-43C8-8E8C-B1B4290C17ED.jpeg" alt="أشجار ونباتات داخلية" loading="lazy"><div>أشجار ونباتات داخلية</div></article>
+      <article class="card"><img src="53D9A0EC-D31A-49F7-95A3-619FFC10B924.jpeg" alt="تنسيق ورد واستقبالات فندقية" loading="lazy"><div>تنسيق ورد واستقبالات فندقية</div></article>
+      <article class="card"><img src="4B10C0DE-2DAA-4AFD-969B-73A17DB839C1.jpeg" alt="تنسيقات ورد فاخرة" loading="lazy"><div>تنسيقات ورد فاخرة</div></article>
+      <article class="card"><img src="C0B724AF-C440-4C86-B9BA-38215A6A7DA7.jpeg" alt="تنسيقات ورد موسمية" loading="lazy"><div>تنسيقات ورد موسمية</div></article>
+      <article class="card"><img src="734B99CA-F1A9-426A-B2B2-5CB0FEE29260.jpeg" alt="تنسيق ورد للفنادق" loading="lazy"><div>تنسيق ورد للفنادق</div></article>
+      <article class="card"><img src="B3FB56EA-57B9-4981-BE86-C3C9B0D1DB4C.jpeg" alt="تنسيق ورد ونباتات داخلية" loading="lazy"><div>تنسيق ورد ونباتات داخلية</div></article>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="contactwrap">
+      <div class="sectionhead">
+        <div class="eyebrow">CONTACT BALQEES</div><h2>تواصل معنا</h2>
+        <p>للتعاون مع الفنادق والمنشآت والمنازل والمناسبات، تواصل معنا مباشرة أو احفظ بيانات الشركة في جهات الاتصال.</p>
+      </div>
+
+      <div class="contactgrid">
+        <div class="contactcard"><small>الهاتف الرئيسي</small><a href="tel:+966599076267" dir="ltr">059 907 6267</a><small>اضغط للاتصال مباشرة</small></div>
+        <div class="contactcard"><small>الهاتف الثاني</small><a href="tel:+966583799559" dir="ltr">058 379 9559</a><small>اضغط للاتصال مباشرة</small></div>
+        <div class="contactcard"><small>واتساب</small><a href="https://wa.me/966599076267" target="_blank" rel="noopener">مراسلتنا على واتساب</a><small>استفسار وعروض خدمات</small></div>
+        <div class="contactcard"><small>البريد الإلكتروني</small><a href="mailto:balqeesfloral@gmail.com">balqeesfloral@gmail.com</a><small>للتواصل الرسمي</small></div>
+        <div class="contactcard"><small>الموقع</small><a href="https://www.google.com/maps/search/?api=1&query=Mecca%2C%20Saudi%20Arabia" target="_blank" rel="noopener">مكة المكرمة · المملكة العربية السعودية</a><small>فتح الموقع على الخرائط</small></div>
+        <div class="contactcard"><small>الموقع الإلكتروني</small><a href="https://balqeesfloral-arch.github.io/balqees-floral/" target="_blank" rel="noopener">balqeesfloral-arch.github.io</a><small>زيارة موقع بلقيس</small></div>
+      </div>
+
+      <div class="socials">
+        <a class="social" href="https://www.instagram.com/balqees_floral/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.7" r=".8" fill="currentColor"/></svg> Instagram
+        </a>
+        <a class="social" href="https://www.facebook.com/BalqeesFloral/" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.6 1.7-1.6h1.8V3.8c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.5v3h2.8v8h3.2z"/></svg> Facebook
+        </a>
+        <a class="social" href="https://www.tiktok.com/@balqees.floral" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 4v10.1a4.2 4.2 0 1 1-3.2-4.1"/><path d="M14 4c.6 2.6 2.1 4.2 5 4.5"/></svg> TikTok
+        </a>
+        <a class="social" href="https://www.snapchat.com/add/balqeesfloral" target="_blank" rel="noopener" aria-label="Snapchat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3c3.5 0 5.4 2.6 5.4 6v1.2c0 1.1.5 2.1 1.6 2.8.5.3 1 .5 1.2.9.2.5-.4.9-1.1 1.1l-1.3.3c-.4.1-.7.3-.8.8-.2.8-.9 1.1-1.8 1.2-.6.1-1.1.3-1.4.7-.4.5-1 .8-1.8.8s-1.4-.3-1.8-.8c-.3-.4-.8-.6-1.4-.7-.9-.1-1.6-.4-1.8-1.2-.1-.5-.4-.7-.8-.8l-1.3-.3c-.7-.2-1.3-.6-1.1-1.1.2-.4.7-.6 1.2-.9 1.1-.7 1.6-1.7 1.6-2.8V9c0-3.4 1.9-6 5.4-6Z"/></svg> Snapchat
+        </a>
+      </div>
+
+      <button class="save" type="button" onclick="saveCompany()">حفظ بيانات الشركة في جهات الاتصال</button>
+      <p class="note" id="saveNote">سيتم تنزيل بطاقة اتصال باسم بلقيس للورود و النباتات بصيغة VCF ويمكن فتحها وإضافتها لجهات الاتصال.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footergrid">
+    <div><b>بلقيس للورود و النباتات</b><small> · BALQEES FLORAL</small></div>
+    <small>مكة المكرمة · المملكة العربية السعودية · © 2026</small>
+  </div>
+</footer>
+
+<script>
+function saveCompany(){
+  const vcard =
+`BEGIN:VCARD
+VERSION:3.0
+FN:بلقيس للورود و النباتات
+ORG:بلقيس للورود و النباتات
+TEL;TYPE=CELL:+966599076267
+TEL;TYPE=WORK:+966583799559
+EMAIL:balqeesfloral@gmail.com
+URL:https://balqeesfloral-arch.github.io/balqees-floral/
+ADR;TYPE=WORK:;;مكة المكرمة;;;السعودية
+NOTE:تنسيق الزهور والنباتات والأشجار والحدائق والصيانة
+END:VCARD`;
+  const blob = new Blob([vcard],{type:"text/vcard;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = "Balqees-Floral-Contact.vcf";
+  document.body.appendChild(a); a.click(); a.remove();
+  URL.revokeObjectURL(url);
+  document.getElementById("saveNote").textContent="تم تجهيز بطاقة بيانات الشركة. افتح الملف لإضافتها إلى جهات الاتصال.";
+}
+</script>
+</body>
+</html>
