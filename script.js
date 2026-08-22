@@ -1,1 +1,0 @@
-document.querySelectorAll('.card').forEach(c=>c.onmouseover=()=>c.style.transform='translateY(-8px)');
